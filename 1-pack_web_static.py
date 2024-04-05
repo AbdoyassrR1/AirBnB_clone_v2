@@ -10,11 +10,10 @@ from datetime import datetime
 
 def do_pack():
     """
-    Compresses the contents of the web_static folder into a .tgz archive.
-
+    Compresse content of the web_static folder into a .tgz.
     Returns:
-            str: The path to the generated archive
-            if successful, None otherwise.
+            The path to the generated archive
+            None otherwise.
     """
     try:
         now = datetime.now()
