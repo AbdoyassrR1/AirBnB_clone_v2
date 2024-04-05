@@ -7,6 +7,7 @@ the conten of the web_static folder.
 from fabric.api import lacal
 from datetime import datetime
 
+
 def do_pack():
     """
     Compresse content of the web_static folder into a .tgz.
