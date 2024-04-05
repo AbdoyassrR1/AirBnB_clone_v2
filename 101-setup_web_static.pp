@@ -1,4 +1,4 @@
-# configure an nginx web server
+# configure an nginx web_server as task 0.
 
 exec { 'apt-get-update':
   command => '/usr/bin/env apt-get -y update',
