@@ -25,7 +25,7 @@ def c_is_fun(text):
     return f"C {msg}"
 
 
-@app.route("/python")
+@app.route("/python/")
 @app.route("/python/<text>")
 def python_is_cool(text="is cool"):
     """print C {msg}"""
