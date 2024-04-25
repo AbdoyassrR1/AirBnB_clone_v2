@@ -27,7 +27,7 @@ def c_is_fun(text):
 
 
 @app.route("/c/<text>")
-def python_is_fun(text="is cool"):
+def python_is_cool(text="is cool"):
     """print C {msg}"""
     msg = text.replace('_', ' ')
     return f"C {msg}"
