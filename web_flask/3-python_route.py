@@ -30,7 +30,7 @@ def c_is_fun(text):
 def python_is_cool(text="is cool"):
     """print C {msg}"""
     msg = text.replace('_', ' ')
-    return f"C {msg}"
+    return f"Python {msg}"
 
 
 if __name__ == "__main__":
